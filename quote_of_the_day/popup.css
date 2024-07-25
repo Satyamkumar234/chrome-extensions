@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .quote-container {
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    color: #0f0f0e;
+    background-color: #FFFDE7;
+    transition: transform 2s;
+    transition: background-color 1s, border 1s;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    animation: colorChange 2s infinite;
+  }
+
+/* styles.css */
+  
+  @keyframes colorChange {
+    0% {
+      background-color: #7bbbff; /* Blue */
+    }
+    25% {
+      background-color: #f0f0f0; /* Light Gray */
+    }
+    50% {
+      background-color: #fa8571; /* Tomato */
+    }
+    75% {
+      background-color: #76fc76; /* Lime Green */
+    }
+    100% {
+      background-color: #75b5f9; /* Blue */
+    }
+  }
+
+
+
+  .quote-container:hover {
+   
+
+    transform: skew(-10deg);
+    box-shadow: #791212;
+    background-color: #f0f0f0;
+    border: 2px solid #007bff;
+  } 
+  
+  h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-style: italic;
+    color: #06b1fa;
+  }
+  
